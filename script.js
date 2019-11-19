@@ -71,7 +71,7 @@ function hideLetters(word="") {
         var idx = parseInt(Math.random() * word.length);
     temp[idx] ="?";
     }
-      return temp.join();
+      return temp.join("");
     
 }
 
